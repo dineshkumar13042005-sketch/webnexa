@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>WebnexaDev | Websites, CRM Software & Digital Solutions</title>
+  
+  <meta name="description" content="WebnexaDev builds high-converting business websites, custom CRM software, e-commerce stores, and Meta Ads lead generation solutions that grow businesses.">
+  <meta name="keywords" content="WebnexaDev, IT Services, Web Development, Custom CRM, E-commerce, Meta Ads Landing Page, Digital Solutions">
+  <meta name="theme-color" content="#0B0F19">
+
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WebnexaDev | Websites, CRM Software & Digital Solutions">
+  <meta property="og:description" content="Your Digital Growth Partner — Websites, Software & Smart Business Solutions. Convert visitors into genuine project enquiries.">
+  <meta property="og:site_name" content="WebnexaDev">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Indicator -->
+  <div id="scroll-progress-bar"></div>
+
+  <!-- Background Ambient Glow Orbs -->
+  <div class="glow-orb glow-purple" style="width: 500px; height: 500px; top: -150px; left: -150px;"></div>
+  <div class="glow-orb glow-cyan" style="width: 600px; height: 600px; top: 20%; right: -200px;"></div>
+
+  <!-- ==========================================================================
+       Navigation Bar
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="WebnexaDev Home">
+        <div class="brand-icon-box">
+          <div class="brand-icon-inner">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#06B6D4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+              <circle cx="12" cy="12" r="2" fill="#06B6D4"></circle>
+            </svg>
+          </div>
+        </div>
+        <div>
+          <div class="brand-name">Webnexa<span>Dev</span></div>
+          <span class="brand-tagline">Digital Solutions</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Our Work</a></li>
+        <li><a href="#why-us" class="nav-link">Why Us</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Desktop Actions -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary">
+          <span>Start a Project</span>
+          <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Buttons -->
+      <div style="display:flex;align-items:center;gap:0.5rem;" class="mobile-actions">
+        <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27m%20interested%20in%20your%20IT%20services.%20Can%20we%20discuss%20my%20requirements%3F" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="padding:0.5rem 0.75rem;font-size:0.75rem;border-radius:10px;display:flex;" aria-label="Chat on WhatsApp">
+          <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+        </a>
+        <button type="button" class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <i data-lucide="menu" style="width:20px;height:20px;"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <ul class="mobile-menu-links">
+        <li><a href="#hero"><span>Home</span> <span>→</span></a></li>
+        <li><a href="#services"><span>Services</span> <span>→</span></a></li>
+        <li><a href="#portfolio"><span>Our Work</span> <span>→</span></a></li>
+        <li><a href="#why-us"><span>Why Us</span> <span>→</span></a></li>
+        <li><a href="#process"><span>Process</span> <span>→</span></a></li>
+        <li><a href="#faq"><span>FAQ</span> <span>→</span></a></li>
+        <li><a href="#contact"><span>Contact</span> <span>→</span></a></li>
+      </ul>
+
+      <div style="display:flex;flex-direction:column;gap:0.75rem;">
+        <a href="#contact" class="btn btn-primary btn-block">
+          <span>Start a Project</span>
+          <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+        </a>
+        <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27m%20interested%20in%20your%20IT%20services.%20Can%20we%20discuss%20my%20requirements%3F" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block">
+          <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+          <span>Chat on WhatsApp (+91 7010957511)</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         Hero Section
+         ========================================================================== -->
+    <section class="hero-section tech-grid-pattern" id="hero">
+      <div class="container hero-grid">
+        
+        <!-- Left: Value Proposition -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="eyebrow">
+            <i data-lucide="sparkles" style="width:14px;height:14px;color:var(--accent-cyan);"></i>
+            <span>IT SERVICES · WEB DEVELOPMENT · DIGITAL SOLUTIONS</span>
+          </div>
+
+          <h1 class="hero-headline">
+            We Build Digital Experiences That <span class="gradient-text">Grow Businesses.</span>
+          </h1>
+
+          <p class="hero-desc">
+            From high-converting websites and e-commerce stores to custom CRM software and AI-powered automation, we help businesses turn ideas into powerful digital solutions.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              <span>Start a Project</span>
+              <i data-lucide="arrow-right" style="width:18px;height:18px;"></i>
+            </a>
+
+            <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27m%20interested%20in%20your%20IT%20services.%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+              <i data-lucide="message-square-text" style="width:18px;height:18px;"></i>
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="hero-trust-tag">
+            <i data-lucide="shield-check" style="width:18px;height:18px;color:var(--success-green);flex-shrink:0;"></i>
+            <span>Built around your business goals. Designed for your next stage of growth.</span>
+          </div>
+        </div>
+
+        <!-- Right: Custom Dashboard Composition -->
+        <div class="hero-dashboard-container reveal-on-scroll">
+          <div class="dashboard-card">
+            
+            <!-- Window Bar -->
+            <div class="dashboard-window-bar">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot amber"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="status-badge">
+                <span class="pulse-dot"></span>
+                <span>PRODUCTION ACTIVE</span>
+              </div>
+            </div>
+
+            <!-- Metrics Strip -->
+            <div class="metrics-strip">
+              <div class="metric-box">
+                <div class="metric-label">
+                  <span>Speed Score</span>
+                  <i data-lucide="zap" style="width:14px;height:14px;color:#FBBF24;"></i>
+                </div>
+                <div class="metric-val">99 <span>/100 LCP</span></div>
+                <div class="metric-bar-bg">
+                  <div class="metric-bar-fill" style="width:99%;"></div>
+                </div>
+              </div>
+
+              <div class="metric-box">
+                <div class="metric-label">
+                  <span>Routing</span>
+                  <i data-lucide="trending-up" style="width:14px;height:14px;color:var(--accent-cyan);"></i>
+                </div>
+                <div class="metric-val">Direct <span style="color:var(--whatsapp-green);">WhatsApp</span></div>
+                <div style="font-size:0.68rem;color:var(--success-green);margin-top:0.4rem;display:flex;align-items:center;gap:3px;">
+                  ✓ Instant prefilled flow
+                </div>
+              </div>
+            </div>
+
+            <!-- CRM Pipeline Card -->
+            <div class="crm-pipeline-card">
+              <div class="crm-header">
+                <span style="display:flex;align-items:center;gap:0.4rem;">
+                  <i data-lucide="activity" style="width:14px;height:14px;color:var(--primary-purple);"></i>
+                  Custom CRM Sales Pipeline
+                </span>
+                <span style="color:var(--primary-purple-light);font-size:0.65rem;background:rgba(139,92,246,0.15);padding:2px 6px;border-radius:4px;">Automated</span>
+              </div>
+
+              <div class="crm-progress-item">
+                <div class="crm-progress-label">
+                  <span>New Inbound Enquiries</span>
+                  <span style="color:#FFFFFF;font-family:var(--font-mono);">100% Captured</span>
+                </div>
+                <div class="crm-progress-bar">
+                  <div style="width:100%;background:linear-gradient(90deg, var(--primary-purple), var(--accent-cyan));"></div>
+                </div>
+              </div>
+
+              <div class="crm-progress-item">
+                <div class="crm-progress-label">
+                  <span>WhatsApp Hand-off & Follow-up</span>
+                  <span style="color:var(--success-green);font-family:var(--font-mono);">0s Delay</span>
+                </div>
+                <div class="crm-progress-bar">
+                  <div style="width:96%;background:var(--success-green);"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tech Pills -->
+            <div class="tech-pills">
+              <span class="tech-pill"><i data-lucide="code-2" style="width:12px;height:12px;color:var(--primary-purple-light);"></i> Vanilla JavaScript</span>
+              <span class="tech-pill"><i data-lucide="zap" style="width:12px;height:12px;color:var(--accent-cyan);"></i> Meta Ads Ready</span>
+              <span class="tech-pill"><i data-lucide="check-circle" style="width:12px;height:12px;color:var(--success-green);"></i> Custom CRM</span>
+            </div>
+
+            <div style="margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid rgba(255,255,255,0.06);display:flex;align-items:center;justify-content:space-between;font-size:0.7rem;color:var(--text-secondary);">
+              <span style="display:flex;align-items:center;gap:0.4rem;">
+                <span class="pulse-dot" style="background:var(--whatsapp-green);"></span>
+                Zero-friction WhatsApp enquiries
+              </span>
+              <span style="color:var(--accent-cyan);font-weight:600;">1-Click</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Trust & Credibility Strip
+         ========================================================================== -->
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        
+        <div class="trust-item reveal-on-scroll">
+          <div class="trust-icon">
+            <i data-lucide="user-check" style="width:20px;height:20px;"></i>
+          </div>
+          <div>
+            <div class="trust-val">1+</div>
+            <div class="trust-label">Happy Client (Verified)</div>
+          </div>
+        </div>
+
+        <div class="trust-item reveal-on-scroll">
+          <div class="trust-icon" style="color:var(--success-green);">
+            <i data-lucide="check-circle-2" style="width:20px;height:20px;"></i>
+          </div>
+          <div>
+            <div class="trust-val">Verified</div>
+            <div class="trust-label">Completed Projects</div>
+          </div>
+        </div>
+
+        <div class="trust-item reveal-on-scroll">
+          <div class="trust-icon" style="color:var(--accent-cyan);">
+            <i data-lucide="briefcase" style="width:20px;height:20px;"></i>
+          </div>
+          <div>
+            <div class="trust-val">100%</div>
+            <div class="trust-label">Business-Focused Solutions</div>
+          </div>
+        </div>
+
+        <div class="trust-item reveal-on-scroll">
+          <div class="trust-icon" style="color:var(--primary-purple-light);">
+            <i data-lucide="smartphone" style="width:20px;height:20px;"></i>
+          </div>
+          <div>
+            <div class="trust-val">Modern</div>
+            <div class="trust-label">Responsive Architecture</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Services Section (6 Cards)
+         ========================================================================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="eyebrow">
+            <i data-lucide="sparkles" style="width:14px;height:14px;"></i>
+            <span>WHAT WE DO</span>
+          </div>
+          <h2 class="section-title">Digital Solutions Built Around Your Business.</h2>
+          <p class="section-desc">
+            Whether you're launching a new business, generating leads or streamlining operations, we build digital experiences designed around your goals.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Service 1: E-commerce -->
+          <div class="service-card reveal-on-scroll">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i data-lucide="shopping-cart" style="width:22px;height:22px;"></i>
+                </div>
+                <span class="service-num">01</span>
+              </div>
+              <h3 class="service-title">E-commerce Website Development</h3>
+              <p class="service-desc">Launch a professional online store designed to showcase products and simplify the buying journey.</p>
+              <ul class="service-features">
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Product catalogues</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Shopping cart</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Payment gateway integration</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Order management</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Responsive product pages</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Admin dashboard integration</li>
+              </ul>
+            </div>
+            <div class="service-btn">
+              <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27m%20interested%20in%20developing%20an%20e-commerce%20website.%20Can%20we%20discuss%20my%20requirements%3F" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">
+                <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+                <span>Discuss E-commerce Website</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 2: Meta Ads Landing Pages -->
+          <div class="service-card reveal-on-scroll">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box" style="background:rgba(6,182,212,0.1);border-color:rgba(6,182,212,0.25);color:var(--accent-cyan);">
+                  <i data-lucide="target" style="width:22px;height:22px;"></i>
+                </div>
+                <span class="service-num">02</span>
+              </div>
+              <h3 class="service-title">Meta Ads Landing Pages</h3>
+              <p class="service-desc">Turn campaign traffic into meaningful enquiries with landing pages built around a clear offer and strong call to action.</p>
+              <ul class="service-features">
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Campaign-specific landing pages</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Conversion-focused page structure</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Lead enquiry forms</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> WhatsApp integration</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Mobile-first layouts</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Analytics and conversion tracking</li>
+              </ul>
+            </div>
+            <div class="service-btn">
+              <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%20need%20a%20landing%20page%20for%20my%20Meta%20Ads%20campaign.%20Can%20we%20discuss%20the%20project%3F" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">
+                <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+                <span>Discuss Landing Page</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 3: Custom CRM Software -->
+          <div class="service-card reveal-on-scroll">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box">
+                  <i data-lucide="layers" style="width:22px;height:22px;"></i>
+                </div>
+                <span class="service-num">03</span>
+              </div>
+              <h3 class="service-title">Custom CRM Software</h3>
+              <p class="service-desc">Manage leads, customer records, sales activities and follow-ups through software tailored to your business workflow.</p>
+              <ul class="service-features">
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Lead management</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Customer records</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Sales pipeline visualization</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Follow-up reminders</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Reports and dashboards</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Role-based access where required</li>
+              </ul>
+            </div>
+            <div class="service-btn">
+              <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27m%20interested%20in%20custom%20CRM%20software%20for%20my%20business.%20I%27d%20like%20to%20discuss%20the%20features%20I%20need." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">
+                <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+                <span>Discuss CRM Software</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 4: Business Website Development -->
+          <div class="service-card reveal-on-scroll">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box" style="background:rgba(56,189,248,0.1);border-color:rgba(56,189,248,0.25);color:var(--accent-cyan-light);">
+                  <i data-lucide="globe" style="width:22px;height:22px;"></i>
+                </div>
+                <span class="service-num">04</span>
+              </div>
+              <h3 class="service-title">Business Website Development</h3>
+              <p class="service-desc">Build a strong digital presence with a professional website that explains your services and encourages customers to contact you.</p>
+              <ul class="service-features">
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Business landing pages</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Multi-page company websites</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Service and portfolio sections</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Enquiry forms</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> WhatsApp integration</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Basic technical SEO</li>
+              </ul>
+            </div>
+            <div class="service-btn">
+              <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%20need%20a%20professional%20business%20website.%20Can%20we%20discuss%20my%20requirements%3F" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">
+                <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+                <span>Discuss Business Website</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 5: AI Chatbots and Automation -->
+          <div class="service-card reveal-on-scroll">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box" style="background:rgba(16,185,129,0.1);border-color:rgba(16,185,129,0.25);color:var(--success-green);">
+                  <i data-lucide="bot" style="width:22px;height:22px;"></i>
+                </div>
+                <span class="service-num">05</span>
+              </div>
+              <h3 class="service-title">AI Chatbots and Automation</h3>
+              <p class="service-desc">Reduce repetitive work and organize customer enquiries using practical AI-powered tools and business automation.</p>
+              <ul class="service-features">
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> FAQ chatbot integration</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Enquiry collection</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Automated response workflows</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Customer support assistance</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> CRM workflow integration</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> WhatsApp workflow integration</li>
+              </ul>
+            </div>
+            <div class="service-btn">
+              <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27m%20interested%20in%20AI%20chatbots%20and%20business%20automation.%20Can%20we%20discuss%20possible%20solutions%3F" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">
+                <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+                <span>Discuss Automation</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 6: Meta Ads and Lead Generation -->
+          <div class="service-card reveal-on-scroll">
+            <div>
+              <div class="service-top">
+                <div class="service-icon-box" style="background:rgba(245,158,11,0.1);border-color:rgba(245,158,11,0.25);color:#FBBF24;">
+                  <i data-lucide="trending-up" style="width:22px;height:22px;"></i>
+                </div>
+                <span class="service-num">06</span>
+              </div>
+              <h3 class="service-title">Meta Ads & Lead Generation</h3>
+              <p class="service-desc">Build a more organized customer acquisition journey through campaign planning, landing pages and enquiry tracking.</p>
+              <ul class="service-features">
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Lead generation funnel planning</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Campaign landing pages</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Creative and CTA alignment</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Lead tracking setup</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Conversion measurement</li>
+                <li><i data-lucide="check" style="width:14px;height:14px;"></i> Enquiry workflow improvements</li>
+              </ul>
+            </div>
+            <div class="service-btn">
+              <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27d%20like%20to%20discuss%20digital%20marketing%20and%20lead%20generation%20solutions%20for%20my%20business." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">
+                <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+                <span>Discuss Lead Generation</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align:center;margin-top:2.5rem;font-size:0.75rem;color:var(--text-muted);" class="reveal-on-scroll">
+          Note: We focus on engineering high-conversion funnels, fast load times, and structured enquiry pipelines. We do not claim guaranteed ad volumes or unrealistic conversion numbers.
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Featured Project — Siva Construction (Phone & Desktop View)
+         ========================================================================== -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="eyebrow cyan">
+            <i data-lucide="sparkles" style="width:14px;height:14px;"></i>
+            <span>SELECTED WORK</span>
+          </div>
+          <h2 class="section-title">Turning Business Needs Into Digital Experiences.</h2>
+          <p class="section-desc">
+            See how we helped Siva Construction establish a strong, professional online presence in Coimbatore, presenting their residential projects with total clarity.
+          </p>
+        </div>
+
+        <div class="portfolio-card reveal-on-scroll">
+          <div class="portfolio-layout">
+            
+            <!-- Left Info Panel -->
+            <div>
+              <div class="tag-list">
+                <span class="tag amber"><i data-lucide="building" style="width:12px;height:12px;"></i> Construction</span>
+                <span class="tag"><i data-lucide="map-pin" style="width:12px;height:12px;color:#F43F5E;"></i> Coimbatore, Tamil Nadu</span>
+                <span class="tag" style="color:var(--primary-purple-light);background:rgba(139,92,246,0.12);">Business Website</span>
+              </div>
+
+              <h3 style="font-size:1.85rem;font-weight:800;color:#FFFFFF;margin-bottom:0.75rem;">
+                Siva Construction
+              </h3>
+
+              <p style="font-size:0.95rem;color:var(--text-secondary);line-height:1.7;">
+                A construction business website created to present residential construction services, organize project categories and help potential customers explore the company's work.
+              </p>
+
+              <ul class="capabilities-list">
+                <li><i data-lucide="check-circle-2" style="width:16px;height:16px;"></i> Residential construction showcase</li>
+                <li><i data-lucide="check-circle-2" style="width:16px;height:16px;"></i> Interactive category navigation</li>
+                <li><i data-lucide="check-circle-2" style="width:16px;height:16px;"></i> Project gallery & specifications display</li>
+                <li><i data-lucide="check-circle-2" style="width:16px;height:16px;"></i> Direct quote & enquiry consultation flow</li>
+                <li><i data-lucide="check-circle-2" style="width:16px;height:16px;"></i> High-speed mobile-first architecture</li>
+              </ul>
+
+              <div style="display:flex;flex-wrap:wrap;gap:0.75rem;padding-top:1.5rem;border-top:1px solid var(--border-subtle);">
+                <button type="button" class="btn btn-outline" id="btn-open-siva-modal">
+                  <i data-lucide="eye" style="width:16px;height:16px;color:var(--accent-cyan);"></i>
+                  <span>View Interactive Preview</span>
+                </button>
+
+                <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%20saw%20the%20Siva%20Construction%20project%20and%20would%20like%20to%20discuss%20a%20similar%20website%20for%20my%20business." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                  <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+                  <span>Build a Similar Website</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Interactive Mockup (Phone View / Desktop View Switcher) -->
+            <div>
+              <!-- Viewport Switcher Buttons -->
+              <div class="device-toggle-bar">
+                <button type="button" class="device-tab-btn active" id="btn-device-phone">
+                  <i data-lucide="smartphone" style="width:14px;height:14px;"></i>
+                  <span>Phone View</span>
+                </button>
+                <button type="button" class="device-tab-btn" id="btn-device-desktop">
+                  <i data-lucide="laptop" style="width:14px;height:14px;"></i>
+                  <span>Desktop View</span>
+                </button>
+              </div>
+
+              <!-- PHONE VIEW FRAME -->
+              <div class="phone-mockup-frame" id="siva-phone-frame">
+                <div class="phone-notch-bar">
+                  <span style="font-family:var(--font-mono);font-weight:700;color:#FFFFFF;">9:41</span>
+                  <div class="phone-island"></div>
+                  <div style="display:flex;align-items:center;gap:3px;">
+                    <i data-lucide="wifi" style="width:11px;height:11px;"></i>
+                    <i data-lucide="battery" style="width:13px;height:13px;"></i>
+                  </div>
+                </div>
+
+                <div class="phone-browser-address">
+                  <span>🔒 sivaconstruction.in</span>
+                  <span style="color:#FBBF24;">Coimbatore</span>
+                </div>
+
+                <!-- Phone Website Content Mock -->
+                <div style="background:#0F172A;border-radius:14px;padding:0.75rem;border:1px solid rgba(255,255,255,0.05);">
+                  <div style="display:flex;align-items:center;justify-content:space-between;padding-bottom:0.5rem;border-bottom:1px solid rgba(255,255,255,0.06);margin-bottom:0.6rem;">
+                    <div style="display:flex;align-items:center;gap:5px;">
+                      <div style="width:20px;height:20px;background:#F59E0B;border-radius:4px;display:flex;align-items:center;justify-content:center;color:#000;font-size:9px;font-weight:800;">SC</div>
+                      <div>
+                        <div style="font-size:10px;font-weight:700;color:#FFF;">SIVA CONSTRUCTION</div>
+                        <div style="font-size:7px;color:#94A3B8;">Builders & Contractors</div>
+                      </div>
+                    </div>
+                    <span style="font-size:8px;padding:1px 5px;background:rgba(16,185,129,0.15);color:#34D399;border-radius:4px;">Verified</span>
+                  </div>
+
+                  <div style="background:linear-gradient(135deg, #1E293B, #0F172A);padding:0.65rem;border-radius:10px;border:1px solid rgba(255,255,255,0.05);margin-bottom:0.6rem;">
+                    <div style="font-size:8px;font-family:var(--font-mono);color:#FBBF24;margin-bottom:2px;">RESIDENTIAL SPECIALISTS</div>
+                    <div style="font-size:11px;font-weight:700;color:#FFF;line-height:1.2;margin-bottom:3px;">Quality Homes Built in Coimbatore.</div>
+                    <div style="font-size:8px;color:#94A3B8;">Architectural villas & turnkey civil contracting.</div>
+                  </div>
+
+                  <div style="font-size:8px;font-weight:700;text-transform:uppercase;color:#94A3B8;margin-bottom:4px;">Categories</div>
+                  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:0.6rem;">
+                    <div style="background:#111827;border:1px solid rgba(245,158,11,0.3);border-radius:6px;padding:4px;text-align:center;">
+                      <div style="font-size:9px;font-weight:700;color:#FCD34D;">Villas</div>
+                      <div style="font-size:7px;color:#64748B;">4 BHK</div>
+                    </div>
+                    <div style="background:#111827;border:1px solid rgba(255,255,255,0.05);border-radius:6px;padding:4px;text-align:center;">
+                      <div style="font-size:9px;font-weight:700;color:#FFF;">Commercial</div>
+                      <div style="font-size:7px;color:#64748B;">Hubs</div>
+                    </div>
+                    <div style="background:#111827;border:1px solid rgba(255,255,255,0.05);border-radius:6px;padding:4px;text-align:center;">
+                      <div style="font-size:9px;font-weight:700;color:#FFF;">Turnkey</div>
+                      <div style="font-size:7px;color:#64748B;">Civil</div>
+                    </div>
+                  </div>
+
+                  <div style="background:#111827;border-radius:8px;padding:6px;border:1px solid rgba(255,255,255,0.05);margin-bottom:0.6rem;">
+                    <div style="display:flex;justify-content:space-between;font-size:9px;font-weight:700;color:#FFF;margin-bottom:2px;">
+                      <span>Sri Lakshmi Grand Villa</span>
+                      <span style="color:#34D399;font-size:8px;">Delivered</span>
+                    </div>
+                    <div style="font-size:8px;color:#94A3B8;margin-bottom:2px;">📍 Saravanampatti, Coimbatore</div>
+                    <div style="font-size:8px;color:#FDE68A;">3,800 sq.ft · 4 BHK Luxury</div>
+                  </div>
+
+                  <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%20saw%20the%20Siva%20Construction%20project%20and%20would%20like%20to%20discuss%20a%20similar%20website%20for%20my%20business." target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;justify-content:center;gap:4px;padding:6px;background:var(--whatsapp-green);color:#FFF;text-decoration:none;border-radius:8px;font-size:9px;font-weight:700;">
+                    <i data-lucide="message-square-text" style="width:11px;height:11px;"></i>
+                    <span>Enquire on WhatsApp</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- DESKTOP VIEW FRAME (Initially Hidden, Toggled by JS) -->
+              <div class="desktop-mockup-frame" id="siva-desktop-frame" style="display:none;">
+                <div class="desktop-chrome-bar">
+                  <div class="window-dots">
+                    <span class="dot red"></span>
+                    <span class="dot amber"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <div class="desktop-address-pill">
+                    <span style="color:#34D399;">🔒</span> sivaconstruction.preview
+                  </div>
+                  <i data-lucide="laptop" style="width:14px;height:14px;color:var(--text-muted);"></i>
+                </div>
+
+                <div style="background:#0B0F19;padding:1.5rem;">
+                  <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.06);margin-bottom:1rem;">
+                    <div style="display:flex;align-items:center;gap:8px;">
+                      <div style="width:26px;height:26px;background:#F59E0B;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#000;font-weight:800;font-size:12px;">SC</div>
+                      <div>
+                        <div style="font-size:12px;font-weight:700;color:#FFF;">SIVA CONSTRUCTION</div>
+                        <div style="font-size:9px;color:#94A3B8;">Residential & Commercial Builders</div>
+                      </div>
+                    </div>
+                    <span style="font-size:10px;font-family:var(--font-mono);color:#FBBF24;">COIMBATORE, TN</span>
+                  </div>
+
+                  <div style="background:linear-gradient(90deg, #1E293B, #0F172A);padding:1.25rem;border-radius:12px;border:1px solid rgba(255,255,255,0.05);margin-bottom:1rem;">
+                    <div style="font-size:10px;font-family:var(--font-mono);color:#FBBF24;margin-bottom:4px;">RESIDENTIAL SPECIALISTS</div>
+                    <div style="font-size:15px;font-weight:700;color:#FFF;margin-bottom:6px;">Building Durable, Architectural Homes Across Coimbatore.</div>
+                    <div style="font-size:11px;color:#94A3B8;">Custom villa planning, structural civil engineering & turnkey handover.</div>
+                  </div>
+
+                  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1rem;">
+                    <div style="background:#111827;border:1px solid rgba(245,158,11,0.3);border-radius:8px;padding:8px;text-align:center;">
+                      <div style="font-size:12px;font-weight:700;color:#FCD34D;">Villas</div>
+                      <div style="font-size:9px;color:#64748B;">Residential</div>
+                    </div>
+                    <div style="background:#111827;border:1px solid rgba(255,255,255,0.05);border-radius:8px;padding:8px;text-align:center;">
+                      <div style="font-size:12px;font-weight:700;color:#FFF;">Commercial</div>
+                      <div style="font-size:9px;color:#64748B;">Offices</div>
+                    </div>
+                    <div style="background:#111827;border:1px solid rgba(255,255,255,0.05);border-radius:8px;padding:8px;text-align:center;">
+                      <div style="font-size:12px;font-weight:700;color:#FFF;">Turnkey</div>
+                      <div style="font-size:9px;color:#64748B;">End-to-End</div>
+                    </div>
+                  </div>
+
+                  <div style="padding:8px 12px;border-radius:8px;background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.25);display:flex;align-items:center;justify-content:space-between;font-size:11px;">
+                    <span style="color:#34D399;font-weight:500;">WhatsApp Project Enquiry Enabled</span>
+                    <span style="color:var(--success-green);font-weight:700;">1-Click</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Why Choose WebnexaDev
+         ========================================================================== -->
+    <section class="why-us-section" id="why-us">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="eyebrow">
+            <i data-lucide="sparkles" style="width:14px;height:14px;"></i>
+            <span>WHY WEBNEXADEV</span>
+          </div>
+          <h2 class="section-title">More Than a Website. A Solution for Your Business.</h2>
+          <p class="section-desc">
+            We focus on tangible outcomes: faster load times, seamless user journeys, and direct channels that connect your prospective customers with you.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          
+          <div class="why-card reveal-on-scroll">
+            <div>
+              <div class="why-icon">
+                <i data-lucide="compass" style="width:24px;height:24px;"></i>
+              </div>
+              <h3 class="why-title">Business-First Thinking</h3>
+              <p class="why-desc">We understand business goals and customer needs before deciding what to build, ensuring every line of code adds commercial value.</p>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border-subtle);">
+              Pillar 01
+            </div>
+          </div>
+
+          <div class="why-card reveal-on-scroll">
+            <div>
+              <div class="why-icon" style="color:var(--accent-cyan);">
+                <i data-lucide="smartphone" style="width:24px;height:24px;"></i>
+              </div>
+              <h3 class="why-title">Mobile-First Experience</h3>
+              <p class="why-desc">We build responsive interfaces engineered to work smoothly on smartphones, tablets, and desktop workstations alike.</p>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border-subtle);">
+              Pillar 02
+            </div>
+          </div>
+
+          <div class="why-card reveal-on-scroll">
+            <div>
+              <div class="why-icon" style="color:#FBBF24;">
+                <i data-lucide="zap" style="width:24px;height:24px;"></i>
+              </div>
+              <h3 class="why-title">Conversion-Focused Design</h3>
+              <p class="why-desc">We use clear messaging, intuitive navigation, and prominent calls to action to turn curious visitors into high-intent enquiries.</p>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border-subtle);">
+              Pillar 03
+            </div>
+          </div>
+
+          <div class="why-card reveal-on-scroll">
+            <div>
+              <div class="why-icon" style="color:var(--success-green);">
+                <i data-lucide="cpu" style="width:24px;height:24px;"></i>
+              </div>
+              <h3 class="why-title">Scalable Technology</h3>
+              <p class="why-desc">We choose maintainable modern architectures that grow effortlessly as your user base and business requirements expand.</p>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border-subtle);">
+              Pillar 04
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         How We Work (Process Timeline)
+         ========================================================================== -->
+    <section class="process-section" id="process">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="eyebrow cyan">
+            <i data-lucide="sparkles" style="width:14px;height:14px;"></i>
+            <span>HOW WE WORK</span>
+          </div>
+          <h2 class="section-title">A Clear Process. From Idea to Launch.</h2>
+          <p class="section-desc">
+            Transparent milestones, rapid feedback loops, and structured development from our first discovery chat to post-launch support.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Desktop horizontal line -->
+          <div class="timeline-desktop-line"></div>
+          <!-- Mobile vertical spine -->
+          <div class="timeline-mobile-spine"></div>
+
+          <div class="timeline-grid">
+            
+            <div class="timeline-card reveal-on-scroll">
+              <div class="timeline-step-indicator">
+                <div class="step-node">
+                  <div class="step-node-inner">01</div>
+                </div>
+                <span class="phase-tag">Phase 1</span>
+              </div>
+              <h3 style="font-size:1.15rem;font-weight:700;color:#FFFFFF;margin-bottom:0.5rem;">Discover</h3>
+              <p style="font-size:0.875rem;color:var(--text-secondary);line-height:1.6;">
+                Understand the business, target customers, requirements, and project goals through structured consultation.
+              </p>
+            </div>
+
+            <div class="timeline-card reveal-on-scroll">
+              <div class="timeline-step-indicator">
+                <div class="step-node">
+                  <div class="step-node-inner">02</div>
+                </div>
+                <span class="phase-tag">Phase 2</span>
+              </div>
+              <h3 style="font-size:1.15rem;font-weight:700;color:#FFFFFF;margin-bottom:0.5rem;">Plan and Design</h3>
+              <p style="font-size:0.875rem;color:var(--text-secondary);line-height:1.6;">
+                Define the page structure, user journey, technical approach, and high-fidelity visual direction.
+              </p>
+            </div>
+
+            <div class="timeline-card reveal-on-scroll">
+              <div class="timeline-step-indicator">
+                <div class="step-node">
+                  <div class="step-node-inner">03</div>
+                </div>
+                <span class="phase-tag">Phase 3</span>
+              </div>
+              <h3 style="font-size:1.15rem;font-weight:700;color:#FFFFFF;margin-bottom:0.5rem;">Develop and Test</h3>
+              <p style="font-size:0.875rem;color:var(--text-secondary);line-height:1.6;">
+                Build the website or software with clean code, test interactive states, and validate responsive performance.
+              </p>
+            </div>
+
+            <div class="timeline-card reveal-on-scroll">
+              <div class="timeline-step-indicator">
+                <div class="step-node">
+                  <div class="step-node-inner">04</div>
+                </div>
+                <span class="phase-tag">Phase 4</span>
+              </div>
+              <h3 style="font-size:1.15rem;font-weight:700;color:#FFFFFF;margin-bottom:0.5rem;">Launch and Support</h3>
+              <p style="font-size:0.875rem;color:var(--text-secondary);line-height:1.6;">
+                Deploy the solution to secure hosting and provide the agreed maintenance and technical support.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div style="text-align:center;" class="reveal-on-scroll">
+          <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27d%20like%20to%20discuss%20a%20new%20project%20and%20understand%20the%20timeline." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+            <i data-lucide="message-square-text" style="width:18px;height:18px;"></i>
+            <span>Let's Discuss Your Project</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Project Enquiry Form
+         ========================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="eyebrow">
+            <i data-lucide="sparkles" style="width:14px;height:14px;"></i>
+            <span>START A PROJECT</span>
+          </div>
+          <h2 class="section-title">Tell Us About Your Project.</h2>
+          <p class="section-desc">
+            Share a few details about your business and what you want to build. We'll use them to understand your requirements.
+          </p>
+        </div>
+
+        <div class="form-box reveal-on-scroll">
+          
+          <!-- Success Alert -->
+          <div class="form-alert success" id="form-success-alert">
+            <div style="display:flex;align-items:flex-start;gap:0.75rem;">
+              <i data-lucide="check-circle-2" style="width:20px;height:20px;color:var(--success-green);flex-shrink:0;"></i>
+              <div>
+                <strong style="display:block;margin-bottom:0.25rem;">Enquiry Successfully Received</strong>
+                <span id="form-success-msg"></span>
+              </div>
+            </div>
+          </div>
+
+          <form id="enquiry-form" novalidate>
+            
+            <!-- Row 1: Full Name & Business Name -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName" class="form-label">Full Name <span class="req">*</span></label>
+                <input type="text" id="fullName" class="form-input" placeholder="e.g. Senthil Kumar" required>
+                <div class="field-error" id="error-fullName">Please enter your full name.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="businessName" class="form-label">Business Name <span style="text-transform:lowercase;color:var(--text-muted);font-weight:400;">(optional)</span></label>
+                <input type="text" id="businessName" class="form-input" placeholder="e.g. Apex Enterprises">
+              </div>
+            </div>
+
+            <!-- Row 2: Email & Phone -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="req">*</span></label>
+                <input type="email" id="email" class="form-input" placeholder="you@company.com" required>
+                <div class="field-error" id="error-email">Please enter a valid email address.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone Number <span class="req">*</span></label>
+                <input type="tel" id="phone" class="form-input" placeholder="+91 98765 43210" required>
+                <div class="field-error" id="error-phone">Please enter your phone number.</div>
+              </div>
+            </div>
+
+            <!-- Row 3: Service & Budget -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="service" class="form-label">Service Required <span class="req">*</span></label>
+                <select id="service" class="form-select" required>
+                  <option value="E-commerce Website">E-commerce Website</option>
+                  <option value="Meta Ads Landing Page">Meta Ads Landing Page</option>
+                  <option value="CRM Software">CRM Software</option>
+                  <option value="Business Website">Business Website</option>
+                  <option value="AI Chatbot and Automation">AI Chatbot and Automation</option>
+                  <option value="Lead Generation">Lead Generation</option>
+                  <option value="Other">Other</option>
+                </select>
+                <div class="field-error" id="error-service">Please select a service.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="budget" class="form-label">Estimated Budget <span class="req">*</span></label>
+                <select id="budget" class="form-select" required>
+                  <option value="Need guidance">Need guidance</option>
+                  <option value="Under ₹10,000">Under ₹10,000</option>
+                  <option value="₹10,000–₹25,000">₹10,000–₹25,000</option>
+                  <option value="₹25,000–₹50,000">₹25,000–₹50,000</option>
+                  <option value="₹50,000+">₹50,000+</option>
+                  <option value="To be discussed">To be discussed</option>
+                </select>
+                <div class="field-error" id="error-budget">Please select an estimated budget range.</div>
+              </div>
+            </div>
+
+            <!-- Row 4: Description -->
+            <div class="form-group" style="margin-bottom:1.5rem;">
+              <label for="description" class="form-label">Project Description <span class="req">*</span></label>
+              <textarea id="description" class="form-textarea" placeholder="Tell us what you want to build, current challenges, key features, and your target timeline..." required></textarea>
+              <div class="field-error" id="error-description">Please enter at least 10 characters describing your project.</div>
+            </div>
+
+            <!-- Button Group -->
+            <div class="form-btn-group">
+              <button type="submit" class="btn btn-primary btn-lg">
+                <i data-lucide="send" style="width:18px;height:18px;"></i>
+                <span>Submit Enquiry</span>
+              </button>
+
+              <button type="button" class="btn btn-whatsapp btn-lg" id="btn-continue-whatsapp">
+                <i data-lucide="message-square-text" style="width:18px;height:18px;"></i>
+                <span>Continue on WhatsApp</span>
+              </button>
+            </div>
+
+            <!-- Privacy Note -->
+            <div class="form-privacy-note">
+              <i data-lucide="lock" style="width:14px;height:14px;"></i>
+              <span>Information submitted is strictly confidential to discuss your project requirements. Zero spam.</span>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAQ Section
+         ========================================================================== -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        
+        <div class="section-header reveal-on-scroll">
+          <div class="eyebrow cyan">
+            <i data-lucide="sparkles" style="width:14px;height:14px;"></i>
+            <span>COMMON QUESTIONS</span>
+          </div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc">
+            Clear, honest answers about our technical capabilities, realistic timelines, and working process.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          
+          <div class="faq-item active reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="true">
+              <span>What services does WebnexaDev provide?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              WebnexaDev provides end-to-end digital services including custom business websites, e-commerce stores, Meta Ads landing pages, custom CRM software, AI chatbot integrations, and conversion-focused lead generation workflows.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Can you build custom e-commerce websites?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              Yes. We develop tailored e-commerce platforms featuring custom product catalogues, shopping carts, secure payment gateway integrations (Razorpay, Stripe, etc.), order management, and responsive customer checkout experiences.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Can you develop CRM software for my business?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              Yes. We design and build custom CRM systems tailored to your specific sales processes, including lead tracking, customer record management, follow-up reminders, pipeline visualization, and role-based permissions.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Do you create landing pages for Meta Ads?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              Yes. We build high-speed, conversion-optimized landing pages specifically tailored to Meta Ads (Facebook & Instagram) campaigns, featuring clear value propositions, direct WhatsApp integration, and conversion tracking pixels.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>How long does a website project take?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              Timelines depend on project scope, features, content readiness, and technical complexity. A focused business landing page typically takes 1 to 2 weeks, while larger multi-page sites or custom CRM systems take 3 to 6 weeks. We provide clear milestone timelines upfront.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>How much does a website cost?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              Project pricing is based on scope, required integrations, custom functionality, and technical depth. We offer transparent pricing structures starting from small business landing pages up to full custom web software. We will provide an itemized quote after discussing your requirements.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Can you redesign an existing website?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              Yes. We can modernize your existing website by improving visual design, mobile responsiveness, page loading speeds, user experience, and conversion pathways while preserving existing brand equity.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Can you integrate WhatsApp into my website?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              Yes. We integrate interactive WhatsApp chat triggers, prefilled contextual message buttons, and floating quick-chat widgets so prospective clients can reach you with zero friction.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>Do you provide website maintenance?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              Yes. We offer maintenance and ongoing support packages covering performance monitoring, security updates, content updates, technical SEO adjustments, and feature enhancements.
+            </div>
+          </div>
+
+          <div class="faq-item reveal-on-scroll">
+            <button type="button" class="faq-question" aria-expanded="false">
+              <span>How can I start a project with WebnexaDev?</span>
+              <div class="faq-icon"><i data-lucide="chevron-down" style="width:16px;height:16px;"></i></div>
+            </button>
+            <div class="faq-answer">
+              You can start immediately by clicking 'Start a Project' to submit your project details, or click 'Chat on WhatsApp' (+91 7010957511) to discuss your goals directly with our team.
+            </div>
+          </div>
+
+        </div>
+
+        <div class="faq-cta-box reveal-on-scroll">
+          <div>
+            <h3 style="font-size:1.15rem;font-weight:700;color:#FFFFFF;margin-bottom:0.25rem;">Have another question?</h3>
+            <p style="font-size:0.875rem;color:var(--text-secondary);">Speak directly with our technical team on WhatsApp for immediate clarity.</p>
+          </div>
+          <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%20have%20a%20question%20about%20your%20IT%20services%20and%20project%20offerings." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="flex-shrink:0;">
+            <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+            <span>Chat with Us</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Final CTA Section
+         ========================================================================== -->
+    <section class="final-cta-section">
+      <div class="container">
+        
+        <div class="final-cta-card reveal-on-scroll">
+          <div class="eyebrow" style="background:rgba(139,92,246,0.25);border-color:rgba(139,92,246,0.45);color:#FFFFFF;">
+            <i data-lucide="sparkles" style="width:14px;height:14px;color:var(--accent-cyan);"></i>
+            <span>READY TO GROW?</span>
+          </div>
+
+          <h2 style="font-size:2.25rem;font-weight:800;color:#FFFFFF;line-height:1.2;margin-bottom:1rem;letter-spacing:-0.02em;">
+            Let's Build Something That Moves Your Business Forward.
+          </h2>
+
+          <p style="font-size:1.1rem;color:var(--text-secondary);max-width:620px;margin:0 auto;line-height:1.7;">
+            From your first website to custom business software, WebnexaDev helps turn your ideas into practical digital solutions.
+          </p>
+
+          <div class="final-btn-group">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              <span>Start Your Project</span>
+              <i data-lucide="arrow-right" style="width:18px;height:18px;"></i>
+            </a>
+
+            <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27d%20like%20to%20start%20a%20project.%20Can%20you%20help%20me%20understand%20the%20next%20steps%3F" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+              <i data-lucide="message-square-text" style="width:18px;height:18px;"></i>
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+
+          <div style="font-size:0.75rem;color:var(--text-muted);">
+            Direct consultation with our technical team • No sales pressure • Clear proposal
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Brand Col -->
+        <div class="footer-col">
+          <a href="#hero" class="brand-logo" style="margin-bottom:1rem;display:inline-flex;">
+            <div class="brand-icon-box">
+              <div class="brand-icon-inner">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#06B6D4" stroke-width="2.2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                  <circle cx="12" cy="12" r="2" fill="#06B6D4"></circle>
+                </svg>
+              </div>
+            </div>
+            <div>
+              <div class="brand-name">Webnexa<span>Dev</span></div>
+              <span class="brand-tagline">Digital Solutions</span>
+            </div>
+          </a>
+
+          <p style="font-size:0.875rem;color:var(--text-secondary);line-height:1.7;max-width:340px;margin-bottom:1.5rem;">
+            WebnexaDev builds websites, custom software and digital solutions that help businesses establish and improve their online presence.
+          </p>
+
+          <div style="font-size:0.75rem;text-transform:uppercase;font-weight:700;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:0.5rem;">
+            Direct WhatsApp Contact
+          </div>
+          <a href="https://wa.me/917010957511" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="padding:0.6rem 1rem;font-size:0.85rem;display:inline-flex;">
+            <i data-lucide="message-square-text" style="width:16px;height:16px;"></i>
+            <span>+91 7010957511</span>
+          </a>
+        </div>
+
+        <!-- Navigation Col -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Our Work</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Col -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links" style="display:grid;grid-template-columns:1fr;gap:0.65rem;">
+            <li><a href="#services">E-commerce Website Development</a></li>
+            <li><a href="#services">Meta Ads Landing Pages</a></li>
+            <li><a href="#services">Custom CRM Software</a></li>
+            <li><a href="#services">Business Website Development</a></li>
+            <li><a href="#services">AI Chatbots and Automation</a></li>
+            <li><a href="#services">Meta Ads and Lead Generation</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span id="current-year">2026</span> WebnexaDev. All rights reserved. • 
+          <button type="button" id="btn-open-privacy" style="background:none;border:none;color:var(--text-secondary);text-decoration:underline;cursor:pointer;font-size:0.8rem;">Privacy Notice</button>
+        </div>
+        <div>
+          Coimbatore, Tamil Nadu & Global Clients
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Floating WhatsApp Button
+       ========================================================================== -->
+  <div class="floating-whatsapp">
+    <div class="floating-whatsapp-tooltip">
+      <span class="pulse-dot" style="background:var(--whatsapp-green);"></span>
+      <span>Chat with WebnexaDev</span>
+    </div>
+    <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%27m%20interested%20in%20your%20IT%20services.%20Can%20we%20discuss%20my%20requirements%3F" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp with WebnexaDev">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.301-.15-1.782-.879-2.058-.98-.276-.1-.477-.15-.678.15-.202.301-.78 0.98-.956 1.18-.176.202-.352.226-.653.076-.301-.15-1.272-.469-2.424-1.496-.896-.799-1.501-1.786-1.677-2.087-.176-.301-.019-.464.132-.614.135-.135.301-.352.452-.527.15-.176.201-.301.301-.502.101-.201.05-.377-.025-.527-.075-.15-.678-1.634-.929-2.239-.244-.588-.493-.509-.678-.518-.176-.008-.377-.01-.578-.01-.201 0-.527.075-.803.377-.276.301-1.054 1.03-1.054 2.511 0 1.482 1.079 2.912 1.23 3.113.15.201 2.123 3.242 5.143 4.547.718.31 1.279.496 1.716.635.722.23 1.378.197 1.897.12.578-.087 1.782-.728 2.033-1.431.251-.703.251-1.305.176-1.431-.075-.126-.276-.201-.578-.351z"/>
+        <path d="M12.004 2C6.48 2 2 6.479 2 12.003c0 1.764.462 3.491 1.34 5.013L2.053 22l5.132-1.346c1.472.802 3.13 1.226 4.819 1.226 5.524 0 10.004-4.48 10.004-10.003C22.008 6.479 17.528 2 12.004 2zm0 18.286c-1.503 0-2.977-.406-4.264-1.173l-.306-.182-3.167.831.846-3.087-.2-.318c-.843-1.342-1.288-2.9-1.288-4.504 0-4.568 3.717-8.286 8.285-8.286 4.569 0 8.286 3.718 8.286 8.286 0 4.568-3.717 8.286-8.286 8.286z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- ==========================================================================
+       Interactive Siva Construction Modal
+       ========================================================================== -->
+  <div class="modal-backdrop" id="siva-preview-modal">
+    <div class="modal-container">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div style="display:flex;align-items:center;gap:0.75rem;">
+          <div style="width:2.25rem;height:2.25rem;background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#FBBF24;">
+            <i data-lucide="building" style="width:18px;height:18px;"></i>
+          </div>
+          <div>
+            <div style="display:flex;align-items:center;gap:0.5rem;">
+              <h3 style="font-size:1.1rem;font-weight:700;color:#FFF;">Siva Construction</h3>
+              <span style="font-size:0.7rem;padding:1px 6px;border-radius:99px;background:rgba(16,185,129,0.15);color:#34D399;font-weight:600;">Verified Client</span>
+            </div>
+            <p style="font-size:0.75rem;color:var(--text-muted);">Coimbatore, Tamil Nadu · Business Website Preview</p>
+          </div>
+        </div>
+
+        <button type="button" class="modal-close-btn" id="btn-close-siva-modal" aria-label="Close modal">
+          <i data-lucide="x" style="width:20px;height:20px;"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        
+        <!-- Category Filter -->
+        <div style="margin-bottom:1.25rem;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.65rem;">
+            <span style="font-size:0.75rem;font-weight:700;text-transform:uppercase;color:var(--text-muted);">Project Categories</span>
+            <span style="font-size:0.75rem;font-family:var(--font-mono);color:var(--text-muted);">Interactive Filter</span>
+          </div>
+
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
+            <button type="button" class="device-tab-btn modal-cat-btn active" data-category="all">All Projects</button>
+            <button type="button" class="device-tab-btn modal-cat-btn" data-category="residential">Residential Villas</button>
+            <button type="button" class="device-tab-btn modal-cat-btn" data-category="commercial">Commercial Hubs</button>
+            <button type="button" class="device-tab-btn modal-cat-btn" data-category="turnkey">Turnkey Contracting</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:0.85rem;margin-bottom:1.5rem;" id="modal-projects-grid">
+          
+          <div class="modal-project-card" data-category="residential" style="background:#111827;border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:1rem;">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.4rem;">
+              <span style="font-size:0.9rem;font-weight:700;color:#FFF;">Sri Lakshmi Grand Villa</span>
+              <span style="font-size:0.7rem;padding:2px 6px;border-radius:4px;background:rgba(16,185,129,0.15);color:#34D399;">Completed</span>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.4rem;">📍 Saravanampatti, Coimbatore</div>
+            <div style="font-size:0.8rem;color:#FDE68A;font-weight:600;">3,800 sq.ft · 4 BHK Luxury Villa</div>
+          </div>
+
+          <div class="modal-project-card" data-category="commercial" style="background:#111827;border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:1rem;">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.4rem;">
+              <span style="font-size:0.9rem;font-weight:700;color:#FFF;">Avinashi Commercial Hub</span>
+              <span style="font-size:0.7rem;padding:2px 6px;border-radius:4px;background:rgba(16,185,129,0.15);color:#34D399;">Delivered</span>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.4rem;">📍 Avinashi Road, Coimbatore</div>
+            <div style="font-size:0.8rem;color:#93C5FD;font-weight:600;">12,500 sq.ft · Multi-tier Suite</div>
+          </div>
+
+          <div class="modal-project-card" data-category="residential" style="background:#111827;border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:1rem;">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.4rem;">
+              <span style="font-size:0.9rem;font-weight:700;color:#FFF;">Royal Palms Residency</span>
+              <span style="font-size:0.7rem;padding:2px 6px;border-radius:4px;background:rgba(16,185,129,0.15);color:#34D399;">Completed</span>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.4rem;">📍 RS Puram, Coimbatore</div>
+            <div style="font-size:0.8rem;color:#A7F3D0;font-weight:600;">4,200 sq.ft · Architectural Build</div>
+          </div>
+
+          <div class="modal-project-card" data-category="turnkey" style="background:#111827;border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:1rem;">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.4rem;">
+              <span style="font-size:0.9rem;font-weight:700;color:#FFF;">Greenfield Turnkey Unit</span>
+              <span style="font-size:0.7rem;padding:2px 6px;border-radius:4px;background:rgba(16,185,129,0.15);color:#34D399;">Completed</span>
+            </div>
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.4rem;">📍 Peelamedu, Coimbatore</div>
+            <div style="font-size:0.8rem;color:#C4B5FD;font-weight:600;">18,000 sq.ft · Turnkey Contracting</div>
+          </div>
+
+        </div>
+
+        <div style="padding:1rem;background:#1E293B;border-radius:12px;border:1px solid rgba(255,255,255,0.08);">
+          <div style="font-size:0.85rem;font-weight:700;color:#FFF;margin-bottom:0.4rem;display:flex;align-items:center;gap:0.4rem;">
+            <i data-lucide="check-circle" style="width:16px;height:16px;color:var(--success-green);"></i>
+            WebnexaDev Engineering Highlights
+          </div>
+          <div style="font-size:0.75rem;color:var(--text-secondary);display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:0.4rem;">
+            <div>• Mobile-first residential showcase</div>
+            <div>• Zero layout shifts on gallery load</div>
+            <div>• Instant WhatsApp quotation trigger</div>
+            <div>• Localized Coimbatore SEO architecture</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 1.5rem;background:#1E293B;border-top:1px solid var(--border-subtle);">
+        <span style="font-size:0.8rem;color:var(--text-secondary);">Interested in a high-converting website like this?</span>
+        <div style="display:flex;gap:0.75rem;">
+          <button type="button" class="btn btn-outline" id="btn-close-siva-modal-bottom" style="font-size:0.8rem;padding:0.5rem 1rem;">Close</button>
+          <a href="https://wa.me/917010957511?text=Hi%20WebnexaDev!%20I%20saw%20the%20Siva%20Construction%20project%20and%20would%20like%20to%20discuss%20a%20similar%20website%20for%20my%20business." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="font-size:0.8rem;padding:0.5rem 1rem;">
+            <i data-lucide="message-square-text" style="width:14px;height:14px;"></i>
+            <span>Build a Similar Website</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Privacy Policy Modal
+       ========================================================================== -->
+  <div class="modal-backdrop" id="privacy-modal">
+    <div class="modal-container" style="max-width:560px;">
+      <div class="modal-header">
+        <div style="display:flex;align-items:center;gap:0.5rem;color:#FFF;font-weight:700;">
+          <i data-lucide="shield" style="width:18px;height:18px;color:var(--primary-purple);"></i>
+          <span>WebnexaDev Privacy Commitment</span>
+        </div>
+        <button type="button" class="modal-close-btn" id="btn-close-privacy">
+          <i data-lucide="x" style="width:20px;height:20px;"></i>
+        </button>
+      </div>
+
+      <div class="modal-body" style="font-size:0.85rem;color:var(--text-secondary);line-height:1.7;">
+        <p style="margin-bottom:0.75rem;"><strong style="color:#FFF;">1. Data Collection & Purpose:</strong> Information submitted through our enquiry forms (name, business, email, phone, and project notes) is used exclusively for evaluating requirements and responding with proposals.</p>
+        <p style="margin-bottom:0.75rem;"><strong style="color:#FFF;">2. Zero Spam Policy:</strong> We never sell, rent, or share your contact details with external third-party marketing brokers.</p>
+        <p style="margin-bottom:0.75rem;"><strong style="color:#FFF;">3. WhatsApp Communication:</strong> When you click to contact us via WhatsApp, you retain complete control over your outgoing message before sending.</p>
+        <p><strong style="color:#FFF;">4. Confidentiality:</strong> All shared technical and business requirements are treated with strict confidentiality.</p>
+      </div>
+
+      <div style="padding:1rem 1.5rem;background:#1E293B;border-top:1px solid var(--border-subtle);display:flex;justify-content:flex-end;">
+        <button type="button" class="btn btn-primary" id="btn-close-privacy-gotit" style="font-size:0.8rem;padding:0.5rem 1.25rem;">Got It</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Script -->
+  <script src="app.js"></script>
+
+</body>
+</html>
